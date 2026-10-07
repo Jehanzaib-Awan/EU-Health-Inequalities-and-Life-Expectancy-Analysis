@@ -1,0 +1,28 @@
+EU Health Inequalities and Life Expectancy Analysis
+
+Countries analysed: 27
+Complete country-year observations: 270
+Years analysed: 2015-2024
+
+Mean life expectancy across country-year observations: 79.97 years
+Mean income inequality across country-year observations: 4.81
+Unweighted mean country life expectancy in 2015: 79.53 years
+Unweighted mean country life expectancy in 2024: 80.89 years
+Change in unweighted mean from 2015 to 2024: +1.36 years
+
+Latest-year highest life expectancy (2024): Spain (84.0 years)
+Latest-year lowest life expectancy (2024): Bulgaria (75.8 years)
+
+Pearson correlation across pooled country-year observations:
+r = -0.428
+p = <0.001
+
+Simple linear regression: life_expectancy ~ income_inequality
+income_inequality coefficient = -1.065 years per one-point increase in S80/S20
+p = <0.001
+R-squared = 0.183
+
+Brief interpretation:
+Higher S80/S20 values were associated with lower life expectancy in this pooled country-year analysis.
+The estimated slope differed from zero at the 5% level in this simple model.
+These are unadjusted, observational country-year associations; repeated observations from countries are pooled, so results do not establish causation and should not be treated as an individual-level relationship.
